@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Forty by HTML5 UP</title>
+		<title>hellooooooooooo </title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<a href="index.html" class="logo"><strong>Zoe</strong> <span>Design</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -43,7 +43,7 @@
 					<section id="banner" class="major">
 						<div class="inner">
 							<header class="major">
-								<h1>This is Zoe !
+								<h1>This is Zoe ! 
 							
 								 </h1>
 							</header>
@@ -123,9 +123,9 @@
 									<header class="major">
 										<h2>綠色建材超環保 </h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<p>買就對了</p>
 									<ul class="actions">
-										<li><a target="_blank" href="https://www.abri.gov.tw/cp.aspx?n=805 " class="button next">Get Started</a></li>
+										<li><a target="_blank" href="https://www.abri.gov.tw/cp.aspx?n=805 " class="button next button2">Get Started</a></li>
 									</ul>
 								</div>
 							</section>
@@ -136,7 +136,8 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+								<form method="post" action="#"  onsubmit="return mailto()">
+								
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -155,30 +156,38 @@
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
+									<script>
+										function mailto() {
+											name = document.getElementsByName('name')[0].value; // 把使用者輸入的名稱拿出來用
+											email = document.getElementsByName('email')[0].value; // 把使用者輸入的email拿出來用
+											message = document.getElementsByName('message')[0].value.replaceAll('\n', '%0D%0A'); // 把使用者輸入的內容拿出來用
+											window.location.href = "mailto:rouyunw@gmail.com?subject=貴公司您好&body=您好, 我是" + name + ":%0D%0A" + message;
+											return false;
+										}
+									</script>
 								</form>
 							</section>
 							<section class="split">
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
+										<h3>信箱</h3>
+										<a href="#">rouyunw@gmail.com</a>
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
+										<h3>電話</h3>
+										<span>(03) 123-4567 </span>
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
+										<span class="icon brands alt fa-line"></span>
+										<h3>地址</h3>
+										<span>桃園市幸福路10000號<br />
+										
 									</div>
 								</section>
 							</section>
@@ -189,14 +198,12 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								
+								<li><a target="_blank" href="https://www.facebook.com/profile.php?id=100072360163207&mibextid=LQQJ4d" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
 								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
+								
 							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Untitled</li><li>Design: Zoe Wang</a></li>
 							</ul>
 						</div>
 					</footer>
