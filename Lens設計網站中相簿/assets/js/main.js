@@ -151,7 +151,7 @@ var main = (function($) { var _ = {
 					'<div class="inner">' +
 						'<div class="nav-next"></div>' +
 						'<div class="nav-previous"></div>' +
-						'<div class="toggle"></div>' +
+						'<div class="toggle" onclick="window.location.href= \'../現代風.html\'"></div>' +
 					'</div>' +
 				'</div>'
 			).appendTo(_.$body);
