@@ -1347,5 +1347,9 @@ input, select, textarea {
 					transition-delay: 0.5s;
 					opacity: 1;
 				}
-
-		}
+.kkk:hover{
+	color:#00D3B7  <!--新增hover觸碰到按鈕後變色 以及變大-->
+	font-size:1.5em
+}
+		
+		
